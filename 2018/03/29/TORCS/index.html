@@ -100,7 +100,19 @@
 <meta property="og:image" content="http://i4.bvimg.com/638842/df006d34d802b64b.gif">
 <meta property="og:image" content="http://i4.bvimg.com/638842/df006d34d802b64b.gif">
 <meta property="og:image" content="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif">
-<meta property="og:updated_time" content="2018-04-05T08:20:16.869Z">
+<meta property="og:image" content="http://i1.bvimg.com/638842/5c0dea8e061ebf05.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/0690e7392f7c05e2.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/f4b244b61d480d29.png">
+<meta property="og:image" content="http://i2.bvimg.com/638842/d55b54b22646c33e.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/bbeda50e55867d1a.png">
+<meta property="og:image" content="http://i2.bvimg.com/638842/156f9c3802f18b8e.png">
+<meta property="og:image" content="http://i4.bvimg.com/638842/49e3a7166662f9c3.png">
+<meta property="og:image" content="http://i4.bvimg.com/638842/167b0b8ab35a8531.png">
+<meta property="og:image" content="http://i4.bvimg.com/638842/334f3706fa9b5f7e.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/5c0dea8e061ebf05.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/0690e7392f7c05e2.png">
+<meta property="og:image" content="http://i1.bvimg.com/638842/f4b244b61d480d29.png">
+<meta property="og:updated_time" content="2018-04-05T08:54:05.041Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving">
 <meta name="twitter:description" content="AbstractDeep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-er">
@@ -316,12 +328,12 @@
       
         <h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>Deep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-error. However, the real-world application of RL is still restricted by a variety of reasons. The two most significant challenges of RL are the large exploration space and the difficulty to converge. Training RL agent with expert demonstration is technically an interesting way to accelerate the exploration process and increase the stability. In this work, we propose a continuous reinforcement learning method which combines Deep Deterministic Policy Gradient (DDPG) with expert demonstrations for intelligent decision making for autonomous driving. The proposed algorithm introduces supervised classification loss function for updating the actor networks. In addition, reward construction is combined to make the training process more stable and efficient. The proposed algorithm is tested on a popular autonomous driving simulator called TORCS. The experimental results show that our method not only improves training efficiency, but also improves learning stability.</p>
 <p>The autonomous driving task can be viewed as Figure1.<br><img src="http://i1.bvimg.com/638842/db51ca0b3c8a93d0.png" alt="example image"></p>
-<p align="center">Figure1. Autonomous driving framework</p>
+<p align="center"><strong>Figure1. Autonomous driving framework</strong></p>
 
 
 <p>The training track and testing track are shown as Figure2.</p>
 <div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://i1.bvimg.com/638842/71221fdeccc3d4c8.png" height="300" width="350"></div><div class="group-picture-column" style="width: 50%;"><img src="http://i1.bvimg.com/638842/254e598739862178.png" height="300" width="350"></div></div></div></div>
-<p align="center">Figure2. Training track(left) and test track(right)</p>
+<p align="center"><strong>Figure2. Training track(left) and test track(right)</strong></p>
 
 
 <p>We record the training video of original DDPG algorithm in 200, 500, 1000 episode respectively, and the video is shown as Figure3.</p>
@@ -340,14 +352,23 @@
 
 
 <p>We visualize the test process(CG1 and CG2 track), the results are shown as figure6 and figure7.</p>
-<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/df006d34d802b64b.gif" height="250" width="300"></div></div></div></div>
-<p align="center"><strong>Figure6. Agent test video in CG1 track</strong></p>
-
-<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif" height="250" width="300"></div></div></div></div>
-<p align="center"><strong>Figure7. Agent test video in CG2 track</strong></p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://i4.bvimg.com/638842/df006d34d802b64b.gif" height="300" width="350"></div><div class="group-picture-column" style="width: 50%;"><img src="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif" height="300" width="350"></div></div></div></div>
+<p align="center"><strong>Figure6. Agent test video in CG1 and CG2 track</strong></p>
 
 
+<p>More comparison detials of our algorithm are shown as Figure7, Figure8, Figure9.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/5c0dea8e061ebf05.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/0690e7392f7c05e2.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/f4b244b61d480d29.png" height="180" width="300"></div></div></div></div>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i2.bvimg.com/638842/d55b54b22646c33e.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/bbeda50e55867d1a.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i2.bvimg.com/638842/156f9c3802f18b8e.png" height="180" width="300"></div></div></div></div>
+<p align="center"><strong>Figure7. Reawrd detials of our algorithm</strong></p>
 
+
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/49e3a7166662f9c3.png" height="180" width="800"></div></div></div></div>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/167b0b8ab35a8531.png" height="180" width="800"></div></div></div></div>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/334f3706fa9b5f7e.png" height="180" width="800"></div></div></div></div>
+<p align="center"><strong>Figure8. Cumulative steps detials of our algorithm</strong></p>
+
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/5c0dea8e061ebf05.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/0690e7392f7c05e2.png" height="180" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i1.bvimg.com/638842/f4b244b61d480d29.png" height="180" width="300"></div></div></div></div>
+<p align="center"><strong>Figure9. Velocity and trackpos detials of our algorithm</strong></p>
       
     </div>
     
