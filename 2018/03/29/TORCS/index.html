@@ -81,7 +81,7 @@
 
 <meta name="description" content="AbstractDeep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-er">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Research on Autonomous Driving">
+<meta property="og:title" content="A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving">
 <meta property="og:url" content="http://yoursite.com/2018/03/29/TORCS/index.html">
 <meta property="og:site_name" content="Lucky&#39;s hoom">
 <meta property="og:description" content="AbstractDeep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-er">
@@ -89,12 +89,20 @@
 <meta property="og:image" content="http://i1.bvimg.com/638842/db51ca0b3c8a93d0.png">
 <meta property="og:image" content="http://i1.bvimg.com/638842/71221fdeccc3d4c8.png">
 <meta property="og:image" content="http://i1.bvimg.com/638842/254e598739862178.png">
-<meta property="og:image" content="http://i1.bvimg.com/638842/916c3fa11e7644bf.png">
+<meta property="og:image" content="http://i4.bvimg.com/638842/3b7af52f5dff256b.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/319e6f133a909da0.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/70632aa37b237c06.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/ba3b51dd9a2930f3.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/8887659e9223efbc.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/56576f35e2622cd7.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/1aecaa69fb94d824.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/671c2ddbc39734ff.gif">
+<meta property="og:image" content="http://i4.bvimg.com/638842/df006d34d802b64b.gif">
 <meta property="og:image" content="http://i4.bvimg.com/638842/df006d34d802b64b.gif">
 <meta property="og:image" content="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif">
-<meta property="og:updated_time" content="2018-04-05T05:00:56.264Z">
+<meta property="og:updated_time" content="2018-04-05T08:20:16.869Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Research on Autonomous Driving">
+<meta name="twitter:title" content="A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving">
 <meta name="twitter:description" content="AbstractDeep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-er">
 <meta name="twitter:image" content="http://i1.bvimg.com/638842/db51ca0b3c8a93d0.png">
 
@@ -132,7 +140,7 @@
 
 
 
-  <title>Research on Autonomous Driving | Lucky's hoom</title>
+  <title>A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving | Lucky's hoom</title>
   
 
 
@@ -256,7 +264,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Research on Autonomous Driving</h1>
+          <h1 class="post-title" itemprop="name headline">A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving</h1>
         
 
         <div class="post-meta">
@@ -307,13 +315,38 @@
 
       
         <h1 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h1><p>Deep Reinforcement learning (RL) is considered to be a strong machine learning algorithm which can be used to teach machines through interaction with the environment and learning from trial-error. However, the real-world application of RL is still restricted by a variety of reasons. The two most significant challenges of RL are the large exploration space and the difficulty to converge. Training RL agent with expert demonstration is technically an interesting way to accelerate the exploration process and increase the stability. In this work, we propose a continuous reinforcement learning method which combines Deep Deterministic Policy Gradient (DDPG) with expert demonstrations for intelligent decision making for autonomous driving. The proposed algorithm introduces supervised classification loss function for updating the actor networks. In addition, reward construction is combined to make the training process more stable and efficient. The proposed algorithm is tested on a popular autonomous driving simulator called TORCS. The experimental results show that our method not only improves training efficiency, but also improves learning stability.</p>
-<p>The autonomous driving task can be viewed as figure1.</p>
-<p><img src="http://i1.bvimg.com/638842/db51ca0b3c8a93d0.png" alt="example image" title="figure1.autonomous driving framework"></p>
-<p>The training track and testing track are showing as figure2 and figure3.</p>
+<p>The autonomous driving task can be viewed as Figure1.<br><img src="http://i1.bvimg.com/638842/db51ca0b3c8a93d0.png" alt="example image"></p>
+<p align="center">Figure1. Autonomous driving framework</p>
+
+
+<p>The training track and testing track are shown as Figure2.</p>
 <div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 50%;"><img src="http://i1.bvimg.com/638842/71221fdeccc3d4c8.png" height="300" width="350"></div><div class="group-picture-column" style="width: 50%;"><img src="http://i1.bvimg.com/638842/254e598739862178.png" height="300" width="350"></div></div></div></div>
-<p>The training process is showing as figure4.<br><img src="http://i1.bvimg.com/638842/916c3fa11e7644bf.png" alt="example image" title="figure4.training process"></p>
-<p>We visualize the training process and test process, the results are showing as figure5 and figure6.<br><img src="http://i4.bvimg.com/638842/df006d34d802b64b.gif" alt="example image" title="figure5.training process"></p>
-<p><img src="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif" alt="gif example." title="figure6.test process"></p>
+<p align="center">Figure2. Training track(left) and test track(right)</p>
+
+
+<p>We record the training video of original DDPG algorithm in 200, 500, 1000 episode respectively, and the video is shown as Figure3.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/3b7af52f5dff256b.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/319e6f133a909da0.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/70632aa37b237c06.gif" height="250" width="300"></div></div></div></div>
+<p align="center"><strong>Figure3. Training video of original DDPG</strong></p>
+
+
+<p>For comparison experiment, we record the training video of DDPG with Expert Demonstrations algorithm in 200, 500, 1000 episode at the same time, and the video is shown as Figure4.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/ba3b51dd9a2930f3.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/8887659e9223efbc.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/56576f35e2622cd7.gif" height="250" width="300"></div></div></div></div>
+<p align="center"><strong>Figure4. Training video of DDPG with Expert Demonstrations</strong></p>
+
+
+<p>Meanwhile, we record the training video of DDPG with modified reward function in 200, 500, 1000 episode, and the video is shown as Figure5.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/1aecaa69fb94d824.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/671c2ddbc39734ff.gif" height="250" width="300"></div><div class="group-picture-column" style="width: 33.333333333333336%;"><img src="http://i4.bvimg.com/638842/df006d34d802b64b.gif" height="250" width="300"></div></div></div></div>
+<p align="center"><strong>Figure5. Training video of DDPG with modifed reward</strong></p>
+
+
+<p>We visualize the test process(CG1 and CG2 track), the results are shown as figure6 and figure7.</p>
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/df006d34d802b64b.gif" height="250" width="300"></div></div></div></div>
+<p align="center"><strong>Figure6. Agent test video in CG1 track</strong></p>
+
+<div class="group-picture"><div class="group-picture-container"><div class="group-picture-row"><div class="group-picture-column" style="width: 100%;"><img src="http://i4.bvimg.com/638842/12d57afcac78e3b0.gif" height="250" width="300"></div></div></div></div>
+<p align="center"><strong>Figure7. Agent test video in CG2 track</strong></p>
+
+
 
       
     </div>
@@ -334,22 +367,6 @@
       
       
 
-      
-        <div class="post-nav">
-          <div class="post-nav-next post-nav-item">
-            
-          </div>
-
-          <span class="post-nav-divider"></span>
-
-          <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/03/29/卿卿/" rel="prev" title="Research">
-                Research <i class="fa fa-chevron-right"></i>
-              </a>
-            
-          </div>
-        </div>
       
 
       
@@ -453,7 +470,7 @@ var jiathis_config={
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">2</span>
+                  <span class="site-state-item-count">1</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
