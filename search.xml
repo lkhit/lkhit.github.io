@@ -3,6 +3,15 @@
   
     
     <entry>
+      <title>Daily Notes</title>
+      <link href="/2018/04/03/Daily%20Notes/"/>
+      <url>/2018/04/03/Daily%20Notes/</url>
+      <content type="html"><![CDATA[<p>LaTex usage:</p><p>-Convert png to eps:</p><p>open the terminal in the current file, and run the command:<br><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></p>]]></content>
+      
+      
+    </entry>
+    
+    <entry>
       <title>A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving</title>
       <link href="/2018/03/29/TORCS/"/>
       <url>/2018/03/29/TORCS/</url>

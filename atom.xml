@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-06T04:01:13.470Z</updated>
+  <updated>2018-04-07T06:56:36.716Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Daily Notes</title>
+    <link href="http://yoursite.com/2018/04/03/Daily%20Notes/"/>
+    <id>http://yoursite.com/2018/04/03/Daily Notes/</id>
+    <published>2018-04-03T06:35:25.000Z</published>
+    <updated>2018-04-07T06:56:36.716Z</updated>
+    
+    <content type="html"><![CDATA[<p>LaTex usage:</p><p>-Convert png to eps:</p><p>open the terminal in the current file, and run the command:<br><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;LaTex usage:&lt;/p&gt;
+&lt;p&gt;-Convert png to eps:&lt;/p&gt;
+&lt;p&gt;open the terminal in the current file, and run the command:&lt;br&gt;&lt;figure class=&quot;highlight r
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>A Deep Reinforcement Learning Algorithm with Expert Demonstrations and Supervised Loss and its application into Autonomous Driving</title>
