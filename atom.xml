@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-09T13:02:27.141Z</updated>
+  <updated>2018-04-09T13:06:00.715Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,19 +21,18 @@
     <link href="http://yoursite.com/2018/04/03/Daily%20Notes/"/>
     <id>http://yoursite.com/2018/04/03/Daily Notes/</id>
     <published>2018-04-03T06:35:25.000Z</published>
-    <updated>2018-04-09T13:02:27.141Z</updated>
+    <updated>2018-04-09T13:06:00.715Z</updated>
     
-    <content type="html"><![CDATA[<p>LaTex usage:</p><p>-Convert png to eps:</p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<p>LaTex usage:</p><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
     
     <summary type="html">
     
       
       
         &lt;p&gt;LaTex usage:&lt;/p&gt;
-&lt;p&gt;-Convert png to eps:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Convert png to eps:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;method1 :&lt;br&gt;open the terminal in the current file, and run the command:&lt;/p&gt;
-&lt;fi
+&lt;li&gt;&lt;p&gt;method1 :&lt;br&gt;open the terminal in the current file, and run the 
       
     
     </summary>
