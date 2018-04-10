@@ -6,7 +6,7 @@
       <title>Daily Notes</title>
       <link href="/2018/04/03/Daily%20Notes/"/>
       <url>/2018/04/03/Daily%20Notes/</url>
-      <content type="html"><![CDATA[<p>LaTex usage:</p><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
+      <content type="html"><![CDATA[<p><strong>LaTex usage:</strong></p><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
       
       
     </entry>
