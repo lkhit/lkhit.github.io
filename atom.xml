@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-10T04:25:45.455Z</updated>
+  <updated>2018-04-10T04:28:55.847Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,18 +21,19 @@
     <link href="http://yoursite.com/2018/04/03/Daily%20Notes/"/>
     <id>http://yoursite.com/2018/04/03/Daily Notes/</id>
     <published>2018-04-03T06:35:25.000Z</published>
-    <updated>2018-04-10T04:25:45.455Z</updated>
+    <updated>2018-04-10T04:28:55.847Z</updated>
     
-    <content type="html"><![CDATA[<p><strong>LaTex usage:</strong></p><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
+    <content type="html"><![CDATA[<font size="5"> <strong>LaTex usage:</strong> </font><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;&lt;strong&gt;LaTex usage:&lt;/strong&gt;&lt;/p&gt;
+        &lt;font size=&quot;5&quot;&gt; &lt;strong&gt;LaTex usage:&lt;/strong&gt; &lt;/font&gt;
+
 &lt;p&gt;&lt;strong&gt;Convert png to eps:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;method1 :&lt;br&gt;open the terminal in the current f
+&lt;li&gt;&lt;p&gt;method1 :&lt;br&gt;open the termina
       
     
     </summary>
