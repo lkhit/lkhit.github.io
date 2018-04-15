@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2018-04-11T11:37:54.893Z</updated>
+  <updated>2018-04-15T14:45:38.416Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://yoursite.com/2018/04/03/Daily%20Notes/"/>
     <id>http://yoursite.com/2018/04/03/Daily Notes/</id>
     <published>2018-04-03T06:35:25.000Z</published>
-    <updated>2018-04-11T11:37:54.893Z</updated>
+    <updated>2018-04-15T14:45:38.416Z</updated>
     
-    <content type="html"><![CDATA[<font size="5"> <strong>LaTex usage:</strong> </font><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul><hr><p><strong>Draw trackPos on the CG1 track</strong></p><ul><li>One of the sensors that TORCS provide us is (Track_Pos) sensor which is defined by: The Distance between the car and the track axis. This value is normalized with respect to the track width: it is 0 when car is on the axis, -1 when the car is on the right edge of the track and +1 when it is on the left edge of the car. </li><li>I have depended on saving this values for: straight line, right curves, and left curves. In addition to that, I have saved the image of the car when moving on this track in order to make sure that these track_pos values are correct. Then, I have projected the track_pos values on the image of the track, and finally I have these two images.</li></ul>]]></content>
+    <content type="html"><![CDATA[<font size="5"> <strong>LaTex usage:</strong> </font><p><strong>Convert png to eps:</strong></p><ul><li><p>method1 :<br>open the terminal in the current file, and run the command:</p><figure class="highlight ruby"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">bmeps -c original.png original.eps</span><br></pre></td></tr></table></figure></li><li><p>method2:<br>online transfer link <a href="http://www.tlhiv.org/rast2vec/" target="_blank" rel="noopener">http://www.tlhiv.org/rast2vec/</a></p></li></ul><hr><p><strong>Draw trackPos on the CG1 track</strong></p><ul><li>One of the sensors that TORCS provide us is (Track_Pos) sensor which is defined by: The Distance between the car and the track axis. This value is normalized with respect to the track width: it is 0 when car is on the axis, -1 when the car is on the right edge of the track and +1 when it is on the left edge of the car. </li><li>I have depended on saving this values for: straight line, right curves, and left curves. In addition to that, I have saved the image of the car when moving on this track in order to make sure that these track_pos values are correct. Then, I have projected the track_pos values on the image of the track, and finally I have these two images.</li></ul><p><strong>theme config:</strong></p><p><a href="http://shenzekun.cn/hexo%E7%9A%84next%E4%B8%BB%E9%A2%98%E4%B8%AA%E6%80%A7%E5%8C%96%E9%85%8D%E7%BD%AE%E6%95%99%E7%A8%8B.html" target="_blank" rel="noopener">next theme config</a></p>]]></content>
     
     <summary type="html">
     
